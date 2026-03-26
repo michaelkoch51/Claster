@@ -40,11 +40,11 @@ backend python_weighted
     server s2 127.0.0.1:8082 weight 3 check  
     server s3 127.0.0.1:8083 weight 4 check  
 
-<img width="477" height="262" alt="Снимок экрана 2026-03-26 в 20 37 22" src="https://github.com/user-attachments/assets/00a30f15-adbb-47c5-bb9d-1a30f84c5051" />  
+<img width="477" height="262" alt="Снимок экрана 2026-03-26 в 20 37 22" src="https://github.com/user-attachments/assets/00a30f15-adbb-47c5-bb9d-1a30f84c5051" />    
 
-<img width="477" height="340" alt="Снимок экрана 2026-03-26 в 20 37 44" src="https://github.com/user-attachments/assets/e8fb6aca-717e-4d1c-a4e7-5d52f4d1d311" />  
 
-    
+<img width="477" height="340" alt="Снимок экрана 2026-03-26 в 20 37 44" src="https://github.com/user-attachments/assets/e8fb6aca-717e-4d1c-a4e7-5d52f4d1d311" />    
+
 Проверка работы ACL (200 OK и 503 Error):  
 На скриншоте ниже видно, что при обращении к example.local сервер отвечает успешно, а при обращении к localhost возвращается ошибка 503.  
 
