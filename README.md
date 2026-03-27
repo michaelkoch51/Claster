@@ -55,7 +55,7 @@ backend python_weighted
 Проверка работы ACL (200 OK и 503 Error):  
 На скриншоте ниже видно, что при обращении к example.local сервер отвечает успешно, а при обращении к localhost возвращается ошибка 503.  
 
-![Задание 2](ttps://github.com/user-attachments/assets/c3cac1ef-cb41-4e76-827f-33b8ff647ddc)
+![Задание 2](https://github.com/user-attachments/assets/c3cac1ef-cb41-4e76-827f-33b8ff647ddc)
 
 Проверка распределения весов:  
 ```bash  
