@@ -67,9 +67,9 @@ for i in {1..9}; do curl -s http://example.local > /dev/null; done
 После выполнения цикла из 9 запросов (for i in {1..9}; do curl -s http://example.local > /dev/null; done), логи Python-серверов  подтверждают распределение:    
 ![Задание 2](https://github.com/user-attachments/assets/0496d1cf-b8b8-473d-9b4c-46e5facda085)  
 Сервер s1 (8081): 2 запроса  
-![сервер1](https://github.com/user-attachments/assets/cf48933a-02ad-4eac-879c-48be10720065)
+![сервер1](https://github.com/user-attachments/assets/cf48933a-02ad-4eac-879c-48be10720065)  
 Сервер s2 (8082): 3 запроса  
-![сервер2](https://github.com/user-attachments/assets/7a3e7c09-127c-484d-9a57-983138ddbb8e)
+![сервер2](https://github.com/user-attachments/assets/7a3e7c09-127c-484d-9a57-983138ddbb8e)  
 Сервер s3 (8083): 4 запроса  
 ![сервер3](https://github.com/user-attachments/assets/aa51ea80-85ac-405b-baed-00340c3da46f)
 
