@@ -12,10 +12,10 @@ listen python_l4
     server s1 127.0.0.1:8081 check  
     server s2 127.0.0.1:8082 check  
 ```
+[файл конфигурации к 1 заданию](https://github.com/michaelkoch51/configs/blob/main/haproxy.cfg)  
+![Задание1](https://github.com/user-attachments/assets/b5db360a-a59b-45a6-abe6-588ba55a647b)  
 
-![Задание1](https://github.com/user-attachments/assets/b5db360a-a59b-45a6-abe6-588ba55a647b)
-
-![Задание1](https://github.com/user-attachments/assets/006bbd9c-8389-46cc-adf5-401b62fb7329)
+![Задание1](https://github.com/user-attachments/assets/006bbd9c-8389-46cc-adf5-401b62fb7329)  
     
 Скриншот работы (чередование запросов):  
 
@@ -48,6 +48,7 @@ backend python_weighted
     server s2 127.0.0.1:8082 weight 3 check  
     server s3 127.0.0.1:8083 weight 4 check  
 ```
+[файл конфигурации к 2 заданию](https://github.com/michaelkoch51/configs/blob/main/haproxy2.cfg%20.cfg)  
 ![Задание 2](https://github.com/user-attachments/assets/00a30f15-adbb-47c5-bb9d-1a30f84c5051)  
 
 ![Задание 2](https://github.com/user-attachments/assets/e8fb6aca-717e-4d1c-a4e7-5d52f4d1d311)  
